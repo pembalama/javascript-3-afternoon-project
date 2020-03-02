@@ -219,20 +219,14 @@ var numsArr = [
 //Code Here
 
 function looper(){
-  for(var i = 0; i < numsArr.length; i++){
-    for(var j = 0; j < numsArr[i].length; j++){
-      if(numArr[i][j] % 2 === 0){
-        numArr[i][j] = 'even';
-    } else 
-
-
-
-    // if(numArr[i] % 2 !== 0){
-    //   numArr[i] = 'odd';
-    // } else{
-    //   numArr[i] = 'even';
-    // }
-  }
-  return numsArr;
+for (let i = 0; i < numsArr.length; i++){
+  for (let j = 0; j < numsArr[i].length; j++){
+    if (numsArr[i][j] % 2 === 0){
+      numsArr[i][j] = 'even';
+    }
+    else{
+      numsArr[i][j] = 'odd';
+     }
+    }
+  } return numsArr;
 }
-
